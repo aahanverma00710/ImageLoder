@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MyImageProgress">
+        <attr name="showProgressView" format="boolean" />
+        <attr name="roundCorners" format="boolean" />
+        <attr name="floatRoundRadius" format="dimension" />
+        <attr name="urlToLoad" format="string" />
+        <attr name="placeholder_item" format="reference" />
+        <attr name="local_Image" format="integer" />
+        <attr name="loadingMode">
+            <enum name="localMode" value="0" />
+            <enum name="urlMode" value="1" />
+        </attr>
+    </declare-styleable>
+
+</resources>
